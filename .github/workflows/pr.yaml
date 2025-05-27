@@ -15,6 +15,11 @@ jobs:
         run: echo "Welcome To the GitHUb Actions"
       - name: Second Step
         run: echo "This is Second Step Exectuted"
+  second-job:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Job 2 Step1
+        run: echo "THis is Step 1 of Job 2"
 
 
 
