@@ -13,6 +13,8 @@ jobs:
     steps:
       - name: welcome step
         run: echo "Welcome To the GitHUb Actions"
+      - name: Second Step
+        run: echo "This is Second Step Exectuted"
 
 
 
